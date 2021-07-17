@@ -24,7 +24,7 @@ client.on('guildMemberAdd', GuildMember =>{
     let welcomeRole = guildMember.guild.roles.cache.find(role => role.name === 'member');
 
     guildMember.roles.add(welcomeRole);
-    guildMember.guild.channels.cache.get('856438060627263498').send(`Welcome <@${guildMember.user.id}> to our server`)
+    guildMember.guild.channels.cache.get('INSERT CHANNEL ID HERE').send(`Welcome <@${guildMember.user.id}> to our server`)
 });
 
 client.on('message', message  =>{
