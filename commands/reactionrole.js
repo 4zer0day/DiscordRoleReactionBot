@@ -7,8 +7,8 @@ module.exports = {
     
         const devTeamRole = message.guild.roles.cache.find(role => role.name === "Developer");
   
-        const hackerTeamEmoji = '☠️';
-        const devTeamEmoji = '🌌';
+        const hackerTeamEmoji = '☠️';//can change to your desire
+        const devTeamEmoji = '🌌';//can change to your desire
 
         let embed = new Discord.MessageEmbed()
         .setColor('#327EA7')
